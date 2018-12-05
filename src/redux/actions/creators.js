@@ -12,15 +12,15 @@ export const decrement = payload => ({
 
 export const fetchGithubRepo = payload => ({
   type: types.FETCH_GITHUB_REPO,
-  payload
+  payload,
 });
 
 export const fetchGithubRepoSuccess = payload => ({
   type: types.FETCH_GITHUB_REPO_SUCCESS,
-  payload
+  payload,
 });
 
 export const fetchGithubRepoFailure = payload => ({
   type: types.FETCH_GITHUB_REPO_FAILURE,
-  payload
+  payload,
 });

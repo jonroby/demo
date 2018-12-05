@@ -1,6 +1,6 @@
-import { query } from '../requestMethods';
+import { query } from "../requestMethods";
 
 const url = "";
 const graphqlString = ``;
 
-export default [ query, url, graphqlString ];
+export default [query, url, graphqlString];

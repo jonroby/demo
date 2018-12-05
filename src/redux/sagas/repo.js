@@ -1,5 +1,8 @@
 import { call, put, takeEvery } from "redux-saga/effects";
-import { fetchGithubRepoSuccess, fetchGithubRepoFailure } from "../actions/creators";
+import {
+  fetchGithubRepoSuccess,
+  fetchGithubRepoFailure,
+} from "../actions/creators";
 import { FETCH_GITHUB_REPO } from "../actions/constants";
 import request from "./requests/repo";
 
